@@ -1,0 +1,16 @@
+src
+tests
+docs
+coverage
+.rpt2_cache
+.github
+.editorconfig
+.huskyrc
+.lintstagedrc
+.prettierrc
+.snyk
+.travis.yml
+*.config.*
+*.code-*
+*.json
+*.lock

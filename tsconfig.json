@@ -1,0 +1,10 @@
+{
+  "extends": "@pascaliske/tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
+    "typeRoots": ["node_modules/@types", "typings"],
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src/**/*.ts"]
+}

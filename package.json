@@ -1,0 +1,70 @@
+{
+  "name": "@pascaliske/storybook-helpers",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Pascal Iske",
+    "email": "info@pascal-iske.de",
+    "url": "https://pascal-iske.de"
+  },
+  "repository": {
+    "url": "https://github.com/pascaliske/npm-package.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascaliske/npm-package/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.umd.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts",
+    "watch": "rollup --config rollup.config.ts --watch",
+    "docs": "typedoc --mode modules --out docs --excludeNotExported --excludeNotDocumented src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest --config jest.config.json --coverage && codecov",
+    "check": "snyk test",
+    "format": "prettier --write \"**/*.{ts,json,md}\"",
+    "version": "bump --yes package.json",
+    "changelog": "standard-changelog",
+    "link": "yarn run build && yarn link",
+    "unlink": "yarn unlink"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": "@pascaliske/prettier-config",
+  "dependencies": {
+    "@storybook/addons": "^5.3.19",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@pascaliske/eslint-config": "^1.0.0",
+    "@pascaliske/prettier-config": "^1.0.2",
+    "@pascaliske/tsconfig": "^1.0.4",
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "bump-cli": "^1.1.3",
+    "codecov": "^3.7.0",
+    "eslint": "^7.2.0",
+    "expect": "^26.0.1",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.9",
+    "prettier": "^2.0.5",
+    "rollup": "^2.15.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "standard-changelog": "^2.0.24",
+    "ts-jest": "^26.1.0",
+    "typedoc": "^0.17.7",
+    "typescript": "^3.9.5"
+  }
+}
