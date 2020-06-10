@@ -12,7 +12,7 @@ deploy:
   provider: npm
   email: info@pascal-iske.de
   api_key:
-    secure: ''
+    secure: tdWUyJLjFRVdM3yaUpLjZrSeckHkiwjK7OgFx8+rlH9dKQvwjYcbzrZkXiWUZVfUjNCVvIF17AynDE4qGXy7wPP5R48WAH1zFUYcuABxJTyYPaCiIXR+CaWpYiu0UXYUsz3GemgXCy4uYERYlPtjJ+uEJqW8AX1lOB4fGmk4QUXs2wsu8e9z0+ZVsa43OLewxlEVIyMeYGEhpe3D5s0CZ/Z1zJe4tYdM7HikwpkO8gK45RkpGci/8oWzFlm0yk/Q02QZ8ib7YQT/fyll2paDoRCz93NHB6Bc61YPrpSPD7AELKebIrZS9ZfKi8PsoFS/9GDHC3MvpMSGATQFC6J71tXjG6zAhVZ54QQZBC7rL6q4483KaqvoEzPnBR+6vvlScKLm1KV1tQXwAv2LAxjcL9oRFdUABnEkR8Vk55KK0j8aRz1/Y4Ryv/gMPoRD3ZHie6CbA0tf4DqZrowmvpjvfzHdpoe1rox5Fjl+vVKuRiqQh6Zpd0wCj+f15u3vvthr7dtno5uTgG+v3rhy7Xp3gN/328wcT3rlAfYDHVYOHc6LAdV9VnRyPANOwo+aTMyQMQzHasBuTgNXzZgqiz7KY9wCvG8AFvBKAIrYRxOO9g5gYKa0uJ8scKKjwenf661KNkduxmeU/CyoWgxbG/YNqfiDM4i8YSUyErraEdYp7HM=
   skip_cleanup: true
   on:
     tags: true
