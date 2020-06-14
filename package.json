@@ -25,7 +25,6 @@
     "docs": "typedoc --mode modules --out docs --excludeNotExported --excludeNotDocumented src/index.ts",
     "lint": "eslint src/**/*.ts",
     "test": "jest --config jest.config.json --coverage --passWithNoTests && codecov",
-    "check": "snyk test",
     "format": "prettier --write \"**/*.{ts,json,md}\"",
     "version": "bump --yes package.json",
     "changelog": "standard-changelog",
