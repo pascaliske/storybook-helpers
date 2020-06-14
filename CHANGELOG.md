@@ -1,3 +1,7 @@
+## [1.0.4](https://github.com/pascaliske/npm-package/compare/v1.0.3...v1.0.4) (2020-06-14)
+
+
+
 ## [1.0.3](https://github.com/pascaliske/npm-package/compare/v1.0.2...v1.0.3) (2020-06-14)
 
 
