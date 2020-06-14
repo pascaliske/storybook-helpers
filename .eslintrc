@@ -2,7 +2,7 @@
   "extends": "@pascaliske/eslint-config",
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.test.json"
   },
   "env": {
     "browser": true
