@@ -51,7 +51,7 @@
     "@typescript-eslint/parser": "^3.3.0",
     "bump-cli": "^1.1.3",
     "codecov": "^3.7.0",
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.0",
     "expect": "^26.0.1",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
