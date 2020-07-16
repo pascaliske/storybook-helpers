@@ -64,6 +64,6 @@
     "standard-changelog": "^2.0.24",
     "ts-jest": "^26.1.2",
     "typedoc": "^0.17.8",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   }
 }
