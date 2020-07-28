@@ -46,7 +46,7 @@
     "@pascaliske/tsconfig": "^1.0.4",
     "@storybook/addons": "^5.3.19",
     "@types/jest": "^26.0.7",
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
     "@typescript-eslint/eslint-plugin-tslint": "^3.7.1",
     "@typescript-eslint/parser": "^3.7.1",
     "bump-cli": "^1.1.3",
