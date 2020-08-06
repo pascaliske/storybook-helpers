@@ -90,13 +90,13 @@
 					<a name="createstory" class="tsd-anchor"></a>
 					<h3>create<wbr>Story</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">create<wbr>Story&lt;T&gt;<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">StoryFn</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_stories_.storyfactory.html" class="tsd-signature-type">StoryFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Story&lt;T&gt;<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{ </span>factory<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>p<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">StoryContext</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReturnType</span><span class="tsd-signature-symbol">; </span>story<span class="tsd-signature-symbol">: </span><a href="" class="tsd-signature-type">story</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_index_.html#storyfn" class="tsd-signature-type">StoryFn</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_stories_.storyfactory.html" class="tsd-signature-type">StoryFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/pascaliske/storybook-helpers/blob/46bc412/src/stories.ts#L28">stories.ts:28</a></li>
+									<li>Defined in <a href="https://github.com/pascaliske/storybook-helpers/blob/de1a382/src/stories.ts#L33">src/stories.ts:33</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -113,13 +113,40 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>__namedParameters: <span class="tsd-signature-symbol">{}</span></h5>
+									<h5>__namedParameters: <span class="tsd-signature-symbol">{ </span>factory<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>p<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">StoryContext</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReturnType</span><span class="tsd-signature-symbol">; </span>story<span class="tsd-signature-symbol">: </span><a href="" class="tsd-signature-type">story</a><span class="tsd-signature-symbol"> }</span></h5>
 									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>factory<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>p<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">StoryContext</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">ReturnType</span></h5>
+											<ul class="tsd-parameters">
+												<li class="tsd-parameter-signature">
+													<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>p<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">StoryContext</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReturnType</span></li>
+													</ul>
+													<ul class="tsd-descriptions">
+														<li class="tsd-description">
+															<h4 class="tsd-parameters-title">Parameters</h4>
+															<ul class="tsd-parameters">
+																<li>
+																	<h5><span class="tsd-flag ts-flagOptional">Optional</span> p: <span class="tsd-signature-type">StoryContext</span></h5>
+																</li>
+															</ul>
+															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReturnType</span></h4>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li class="tsd-parameter">
+											<h5>story<span class="tsd-signature-symbol">: </span><a href="" class="tsd-signature-type">story</a></h5>
+											<div class="tsd-comment tsd-typography">
+												<p><a href="../interfaces/_stories_.story.html">Story</a> setup object containing a <a href="../interfaces/_stories_.storyfactory.html">StoryFactory</a> for the component.</p>
+											</div>
+										</li>
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">StoryFn</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_stories_.storyfactory.html" class="tsd-signature-type">StoryFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
-							<p>Returns a prepared {@link StoryFn} ready to be consumed by Storybook.</p>
+							<h4 class="tsd-returns-title">Returns <a href="_index_.html#storyfn" class="tsd-signature-type">StoryFn</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_stories_.storyfactory.html" class="tsd-signature-type">StoryFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Returns a prepared <a href="_index_.html#storyfn">StoryFn</a> ready to be consumed by Storybook.</p>
 						</li>
 					</ul>
 				</section>
@@ -173,6 +200,5 @@
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>
