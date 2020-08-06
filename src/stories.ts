@@ -1,6 +1,11 @@
-import { StoryFn, OptionsParameter } from '@storybook/addons'
+import type { StoryFn, OptionsParameter } from '@storybook/addons'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
+/**
+ * Explicitly export types for type inference.
+ */
+export type { StoryFn, OptionsParameter }
 
 /**
  * Interface defining a typed {@link StoryFactory}.
