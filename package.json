@@ -36,7 +36,7 @@
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
