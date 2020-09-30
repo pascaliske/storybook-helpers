@@ -63,7 +63,7 @@
     "rollup-plugin-typescript2": "^0.27.2",
     "standard-changelog": "^2.0.24",
     "ts-jest": "^26.4.1",
-    "typedoc": "^0.19.1",
+    "typedoc": "^0.19.2",
     "typescript": "^4.0.3"
   }
 }
