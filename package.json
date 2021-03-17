@@ -45,7 +45,7 @@
     "@pascaliske/prettier-config": "^1.1.0",
     "@pascaliske/tsconfig": "^1.0.4",
     "@storybook/addons": "^5.3.21",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.21",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/eslint-plugin-tslint": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
