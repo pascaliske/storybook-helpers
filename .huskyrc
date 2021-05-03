@@ -1,7 +1,0 @@
-{
-  "hooks": {
-    "commit-msg": "commitlint --env HUSKY_GIT_PARAMS",
-    "pre-commit": "lint-staged",
-    "post-merge": "git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep --quiet \"package.json\" && yarn install"
-  }
-}
