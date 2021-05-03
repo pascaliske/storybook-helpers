@@ -22,7 +22,7 @@
   "scripts": {
     "build": "rollup --config rollup.config.ts",
     "watch": "rollup --config rollup.config.ts --watch",
-    "docs": "typedoc --mode modules --out docs --excludeNotExported --excludeNotDocumented src/index.ts",
+    "docs": "typedoc --out docs --excludeNotDocumented src/index.ts",
     "lint": "eslint src/**/*.ts",
     "test": "jest --config jest.config.json --coverage --passWithNoTests && codecov",
     "format": "prettier --write \"**/*.{ts,json,md}\"",
@@ -46,6 +46,8 @@
     "@pascaliske/tsconfig": "^1.0.5",
     "@storybook/addons": "^6.2.9",
     "@types/jest": "^26.0.23",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-env": "^1.16.0",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/eslint-plugin-tslint": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
