@@ -41,7 +41,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
-    "@pascaliske/eslint-config": "^2.0.0",
+    "@pascaliske/eslint-config": "^2.0.2",
     "@pascaliske/prettier-config": "^1.1.1",
     "@pascaliske/tsconfig": "^1.0.4",
     "@storybook/addons": "^5.3.21",
