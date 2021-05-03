@@ -31,5 +31,6 @@ export interface Story<T> {
  * @returns Returns a prepared {@link StoryFn} ready to be consumed by Storybook.
  */
 export function createStory<T>({ factory, ...story }: Story<T>): StoryFn<StoryFactory<T>> {
+    // eslint-disable-next-line dot-notation, no-sequences
     return (factory['story'] = story), factory
 }

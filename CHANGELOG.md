@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/pascaliske/npm-package/compare/v1.1.0...v1.1.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* **stories:** ignore lint errors ([30a566e](https://github.com/pascaliske/npm-package/commit/30a566e1f9e55de9c92378deb50b376d605d055e))
+
+
+
 # [1.1.0](https://github.com/pascaliske/npm-package/compare/v1.0.4...v1.1.0) (2020-08-06)
 
 
