@@ -41,7 +41,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@pascaliske/eslint-config": "^2.0.3",
+    "@pascaliske/eslint-config": "^2.0.4",
     "@pascaliske/prettier-config": "^1.1.2",
     "@pascaliske/tsconfig": "^1.0.6",
     "@rstacruz/bump-cli": "^2.0.0",
