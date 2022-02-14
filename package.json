@@ -45,7 +45,7 @@
     "@pascaliske/prettier-config": "^1.1.4",
     "@pascaliske/tsconfig": "^1.0.6",
     "@rstacruz/bump-cli": "^2.0.1",
-    "@storybook/addons": "^6.4.18",
+    "@storybook/addons": "^6.4.19",
     "@types/jest": "^27.4.0",
     "@types/webpack": "^5.28.0",
     "@types/webpack-env": "^1.16.3",
