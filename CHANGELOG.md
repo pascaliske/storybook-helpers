@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/pascaliske/npm-package/compare/v1.1.4...v1.1.5) (2022-02-15)
+
+
+### Bug Fixes
+
+* make component parameter optional for story factories ([7771b1d](https://github.com/pascaliske/npm-package/commit/7771b1d64764ed5080c130470eddb626c993f45d))
+
+
+
 ## [1.1.4](https://github.com/pascaliske/npm-package/compare/v1.1.3...v1.1.4) (2022-02-15)
 
 
