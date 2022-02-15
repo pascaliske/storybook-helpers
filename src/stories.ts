@@ -11,7 +11,7 @@ export type { StoryFn, OptionsParameter }
  * Interface defining a typed {@link StoryFactory}.
  */
 export interface StoryFactory<C = any> {
-    component: new (...args: any[]) => C
+    component?: new (...args: any[]) => C
     props: Partial<Record<keyof C, any>>
 }
 
