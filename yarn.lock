@@ -1443,12 +1443,12 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin-tslint@^5.27.0":
-  version "5.27.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-5.27.0.tgz#f18c31cf09b1d561730f57078d90d4aa37820d83"
-  integrity sha512-U8ExiYYbM4AYl7SAdDRMIKwEO+ZwEgyC4II9SIZM3kO3ZkSebjCuBzR/pS7R8uAoe0mfLTINb84qpqDKOyUDRg==
+"@typescript-eslint/eslint-plugin-tslint@^5.27.1":
+  version "5.27.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-5.27.1.tgz#9d89f72ee9c6f182af07da696f8ccb6803afd7d9"
+  integrity sha512-U95M4jCGNbag0T5OtnwVXQJ5qx/1V9QOipcv9pQnOdIwVPPSBuoLYluOChGeuoQLHN/TjfTPqKhTBKtI3NmnRA==
   dependencies:
-    "@typescript-eslint/utils" "5.27.0"
+    "@typescript-eslint/utils" "5.27.1"
     lodash "^4.17.21"
 
 "@typescript-eslint/eslint-plugin@^5.27.0":
@@ -1546,6 +1546,18 @@
     "@typescript-eslint/scope-manager" "5.27.0"
     "@typescript-eslint/types" "5.27.0"
     "@typescript-eslint/typescript-estree" "5.27.0"
+    eslint-scope "^5.1.1"
+    eslint-utils "^3.0.0"
+
+"@typescript-eslint/utils@5.27.1":
+  version "5.27.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.27.1.tgz#b4678b68a94bc3b85bf08f243812a6868ac5128f"
+  integrity sha512-mZ9WEn1ZLDaVrhRaYgzbkXBkTPghPFsup8zDbbsYTxC5OmqrFE7skkKS/sraVsLP3TcT3Ki5CSyEFBRkLH/H/w==
+  dependencies:
+    "@types/json-schema" "^7.0.9"
+    "@typescript-eslint/scope-manager" "5.27.1"
+    "@typescript-eslint/types" "5.27.1"
+    "@typescript-eslint/typescript-estree" "5.27.1"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
