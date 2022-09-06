@@ -51,7 +51,7 @@
     "@types/webpack-env": "^1.18.0",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/eslint-plugin-tslint": "^5.36.1",
-    "@typescript-eslint/parser": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.2",
     "codecov": "^3.8.3",
     "eslint": "^8.23.0",
     "expect": "^29.0.2",
