@@ -49,7 +49,7 @@
     "@types/jest": "^29.1.2",
     "@types/webpack": "^5.28.0",
     "@types/webpack-env": "^1.18.0",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/eslint-plugin-tslint": "^5.39.0",
     "@typescript-eslint/parser": "^5.40.0",
     "codecov": "^3.8.3",
